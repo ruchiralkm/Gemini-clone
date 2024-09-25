@@ -26,7 +26,17 @@ function Main() {
     <div className="main">
       <div className="nav">
         <p>Gemini</p>
-        <img width="48" height="48" src={user} alt="User" />
+        <img
+          src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/google-gemini-icon.png"
+          alt=""
+          style={{ width: "30px", height: "30px", marginLeft: "-88%" }}
+        />{" "}
+        <img
+          width="48"
+          height="48"
+          src="https://png.pngtree.com/png-vector/20240130/ourmid/pngtree-avatar-with-flat-style-png-image_11517216.png"
+          alt="User"
+        />
       </div>
 
       <div className="main-container">
@@ -34,29 +44,31 @@ function Main() {
           <>
             <div className="greet">
               <p>
-                <span>Hello, Dev</span>
+                <span>Hello Dear,</span>
               </p>
               <p>How can I help you today?</p>
             </div>
 
             <div className="cards">
               <div className="card">
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>
+                  Suggest an organized list of the best food spots in a city
+                </p>
                 <img src={compass} alt="Compass" />
               </div>
 
               <div className="card">
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Explain the impact of globalization</p>
                 <img src={bulb} alt="Bulb" />
               </div>
 
               <div className="card">
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Walk me through how to apply for a new role</p>
                 <img src={message} alt="Message" />
               </div>
 
               <div className="card">
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Help write SQL to generate a report</p>
                 <img src={code} alt="Code" />
               </div>
             </div>
@@ -64,7 +76,10 @@ function Main() {
         ) : (
           <div className="result">
             <div className="result-title">
-              <img src={user} alt="User" />
+              <img
+                src="https://png.pngtree.com/png-vector/20240130/ourmid/pngtree-avatar-with-flat-style-png-image_11517216.png"
+                alt="User"
+              />
               <p>{recentPrompt}</p>
             </div>
 
@@ -101,8 +116,8 @@ function Main() {
           </div>
 
           <p className="bottom-info">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-            autem earum soluta
+            ©2024 Designed by Ruchira Kaluarachchi | All Rights Reserved. |
+            ruchiralkm@gmail.com{" "}
           </p>
         </div>
       </div>
