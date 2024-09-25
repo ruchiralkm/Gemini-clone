@@ -15,8 +15,8 @@ This project is a Google Gemini Clone built using React and SCSS, powered by Vit
 <h1>Getting Started</h1>
 1. Clone the repo-> https://github.com/ruchiralkm/Gemini-clone.git
 <br>
-2.cd Gemini-clone
+2. cd Gemini-clone
 <br>
-3.npm install
+3. npm install
 <br>
-4.npm run dev
+4. npm run dev
