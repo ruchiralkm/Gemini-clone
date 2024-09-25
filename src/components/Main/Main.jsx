@@ -8,7 +8,6 @@ import gallery from "../../assets/gallery_icon.png";
 import mic from "../../assets/mic_icon.png";
 import send from "../../assets/send_icon.png";
 import gemini from "../../assets/gemini_icon.png";
-import user from "../../assets/user_icon.png";
 import { Context } from "../../context/Context";
 
 function Main() {
